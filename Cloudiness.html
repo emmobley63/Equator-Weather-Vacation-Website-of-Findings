@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -52,33 +53,18 @@
                     <h1>Latitude vs. Cloudiness
                     </h1>
                     <hr>
-                    <div class="c-div-img">
+                    <div class="p-div-img">
                         <img src="Resources\assets\images\Fig3.png" alt="Latitude vs. Cloudiness" class="auto-img">
-                    </div>                
+                    </div>
                     <p>
-                        The purpose of this project was
-                        to analyze how weather changes
-                        as you get closer to the equator.
-                        To accomplish this analysis, we
-                        first pulled data from the
-                        OpenWeatherMap API to assemble
-                        a dataset on over 500 cities
+                        We observed cloudiness and removed data pointsabove 100. 
+                        We then plotted them against the Latitude. There is little
+                        to no correlation between the cloudiness and the latitude 
+                        observed.
                     </p>
-                    <p>   
-                        After assembling the dataset,
-                        we used Matplotlib to plot various
-                        aspects of the weather vs. latitude.
-                        Factors we looked at included:
-                        temperature, cloudiness, wind speed,
-                        and humidity. This site provides the
-                        source data and visualizations created
-                        as part of the analysis, as well as
-                        explanations and descriptions of any
-                        trends and correlations
-                    </p>
-                </div>    
+                </div>
             </div>
-        
+
             <div class="col-md-4 col-sm-12 grey-back">
                 <div class="box2">
                     <h2>Visualizations
@@ -94,8 +80,8 @@
                             <a href="Humidity.html">
                                 <img src="Resources\assets\images\Fig2.png" alt="Humidity" class="auto-img">
                             </a>
-                        </div>                    
-                        <div class="col-md-6 col-sm-3 col-3 vis-pad center">      
+                        </div>
+                        <div class="col-md-6 col-sm-3 col-3 vis-pad center">
                             <a href="Cloudiness.html">
                                 <img src="Resources\assets\images\Fig3.png" alt="Cloudiness" class="auto-img selected">
                             </a>
@@ -105,7 +91,7 @@
                                 <img src="Resources\assets\images\Fig4.png" alt="Wind Speed(mph)" class="auto-img">
                             </a>
                         </div>
-                    </div>   
+                    </div>
                 </div>
             </div>
         </div>
@@ -120,4 +106,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
