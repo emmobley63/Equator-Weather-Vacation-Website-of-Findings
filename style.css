@@ -52,9 +52,9 @@ p {
     padding-bottom:0px;
 }
 
-.navbar-toggler {
+/* .navbar-toggler {
     background-color: #29a3a3;
-}
+} */
 
 .white-back {
     background-color: white;
@@ -192,13 +192,17 @@ p {
     float:left;
 } 
 
-.navbar-toggler {
+/* .navbar-toggler-icon {
     color: white;
-}
+}  */
 
 .selected {
     border-radius: 0px;
     border:2px solid #29a3a3;
+}
+
+.icon-bar {
+    color:white;
 }
 
 
@@ -212,7 +216,7 @@ p {
         background-color: white;
     }
 
-    .navbar {
+    .white-back {
         background-color: #29a3a3;
     }
 
