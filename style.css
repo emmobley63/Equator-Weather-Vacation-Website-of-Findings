@@ -202,9 +202,13 @@ p {
     height: auto;
 }
 
-/* .navbar-toggler-icon {
+.navbar-toggler-icon {
     color: white;
-}  */
+} 
+.custom-toggler.navbar-toggler {
+    color: white;
+    border-color:white;
+} 
 
 .selected {
     border-radius: 0px;
