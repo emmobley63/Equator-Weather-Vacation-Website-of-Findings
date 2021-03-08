@@ -53,10 +53,6 @@ p {
     padding-bottom:0px;
 }
 
-/* .navbar-toggler {
-    background-color: #29a3a3;
-} */
-
 .white-back {
     background-color: white;
 }
@@ -219,7 +215,15 @@ p {
     max-width: 100%;
 }
 
-@media (max-width: 720px) {
+.dropdown-menu {
+    background-color: #29a3a3;
+    color: white;
+}
+.dropdown-item {
+    color: white;
+}
+
+@media (max-width: 768px) {
 
     body {
         background: white;
