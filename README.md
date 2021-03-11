@@ -1,4 +1,8 @@
 Web-Design-Challenge
-I wanted to create a website for the graphs and findings of our Coordinates vs Climate analysis. I built the table using  used bootstrap containers and navbars to create a pleasing asthetic. 
+I wanted to create a website for the graphs and findings of our Coordinates vs Climate analysis. I built the table using used bootstrap's containers, navbars, and row/column layout to create a pleasing asthetic. 
 
-The navabar was pulled from the bootstrap library and then adjusted to be "centered-right." I used the hamburger-icon when the screen was below the "md" size of pixels. I also changed the brand logo to be bold and white. 
+The navabar was pulled from the bootstrap library and then adjusted to be "centered-right." I used the hamburger-icon when the screen was below the "md" size of pixels. I also changed the brand logo to be bold and white, while changing the background color of the navbar to be the theme color when the screen goes below "md" pixels.
+
+I included an active navigation within the plots to show which plot you are viewing. They appear to the right of the plot you are viewing when viewing from a screen larger than the "md" size. The image hyperlinks then move to the bottom of the screen when viewing on a smaller device.
+
+The data and analyis was pulled from my python-challenge repository. 
