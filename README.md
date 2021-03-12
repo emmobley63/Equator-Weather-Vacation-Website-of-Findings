@@ -5,4 +5,6 @@ The navabar was pulled from the bootstrap library and then adjusted to be "cente
 
 I included an active navigation within the plots to show which plot you are viewing. They appear to the right of the plot you are viewing when viewing from a screen larger than the "md" size. The image hyperlinks then move to the bottom of the screen when viewing on a smaller device.
 
+All other style adaptations were defined in the "style.css" sheet.
+
 The data and analyis was pulled from my python-challenge repository. 
